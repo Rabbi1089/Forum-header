@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Tailwind & daisyUI CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="font.css">
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet">
+
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <title>Retro forum</title>
+</head>
+
+<body>
+  <header class="container mx-auto mt-14 mb-10">
+    <!-- Navbar start -->
+    <nav class="flex justify-between items-center">
+      <div class="">
+        <h1 class=" text-4xl font-extrabold text-center text-[#030712]">KoTha</h1>
+      </div>
+      <div class="flex flex-row justify-between gap-5">
+        <button class="btn btn-circle"><a href=""></a>
+          <span><img src="images/house.png" alt="" srcset="" style="width: 24px; height: 24px;"></i></span>
+        </button>
+        <button class="btn btn-circle">
+          <span><img src="images/edit.png" alt="" srcset="" ></i></span>
+        </button>
+        <button class="btn btn-circle">
+          <span><img src="images/add.png" alt="" srcset="" style="width: 24px; height: 24px;"></i></span>
+        </button>
+        <button class="btn btn-circle">
+          <span><img src="images/publish.png" alt="" srcset="" ></i></span>
+        </button>
+        <button class="btn btn-active btn-primary">Sign in</button>
+      </div>
+      <!-- Navbar end -->
+    </nav>
+  </header>
+    <!-- ======================================================-->
+  <main class="container mx-auto p-5 lg:p-0">
+    <section>
+      <!-- wellcome section -->
+      <div
+      class=" w-full bg-[#12132D] bg-[url('./images/bgbanner.png')] bg-cover rounded-xl flex flex-1 lg:flex justify-center items-center p-8 space-y-4 lg:p-24 lg:gap-48 ">
+      <!-- main div for header -->
+      <!-- header left  -->
+      <div class="text-white  space-y-3 lg:space-y-5 text-center">
+        <h2 class="text-4xl lg:text-6xl font-black lg:leading-[86px]">Welcome to the <br> <span class="text-[#7D7DFCFF]">
+            KoTha
+          </span>Forum</h2>
+        <p>Share your favorite opinion and win and wp forum coffee mug!</p>
+        <div class="ml-5 mt-8">
+          <div class="join ml-5 lg:-ml-0 mt-8">
+            <input class="input input-bordered join-item text-black rounded-full" placeholder="Email" />
+            <button class="btn join-item rounded-r-full bg-[#797DFC]">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <!-- heder right  -->
+      <div class="bg-slate-100 text-black flex justify-between p-12 gap-14 rounded-lg">
+        <div class="">
+          <ul>
+            <li>Registered Users</li>
+            <li>Forum</li>
+            <li>Topics</li>
+            <li>Replies</li>
+          </ul>
+        </div>
+        <div class="">
+          <ul>
+            <li>01</li>
+            <li>05</li>
+            <li>01</li>
+            <li>01</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </section>
+  </main>
+  <script src="tailwind.config.js"></script>
+</body>
+
+</html>
